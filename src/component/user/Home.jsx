@@ -14,7 +14,7 @@ const Home = () => {
 
   const handleDetect = () => {
     // Simulasikan hasil deteksi
-    setDetectionResult(";(Hello World)print");
+    setDetectionResult("Hasil");
   };
 
   return (
