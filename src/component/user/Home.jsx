@@ -50,11 +50,13 @@ const Home = () => {
 
         {previewUrl && (
           <div className="mt-6 flex justify-center">
-            <img
-              src={previewUrl}
-              alt="Preview"
-              className="w-full object-cover rounded shadow"
-            />
+            <div className="w-[32rem]">
+              <img
+                src={previewUrl}
+                alt="Preview"
+                className="w-full object-cover rounded shadow"
+              />
+            </div>
           </div>
         )}
 
